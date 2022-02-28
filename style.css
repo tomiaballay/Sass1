@@ -1,0 +1,207 @@
+body {
+  background-image: url(img/fond3.jfif);
+  background-position: center center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-size: 3rem;
+}
+
+.subtitulo {
+  text-align: center;
+  border-color: rgba(236, 47, 104, 0.849);
+  border-width: 0.3rem;
+  border-radius: 2rem;
+  border-style: solid;
+  margin: 1.5rem 12.5rem;
+  color: white;
+  margin: 2rem auto;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu ul a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.menu ul a:hover {
+  background-color: #ffaac4;
+  cursor: pointer;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedor .caja1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2.18rem;
+  border-style: solid;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f591ba), to(#f183cd));
+  background-image: linear-gradient(#f591ba, #f183cd);
+  width: 21.8rem;
+  height: 12.5rem;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+}
+
+.contenedor .caja1 h3 {
+  text-decoration: underline;
+  line-height: 0.6rem;
+}
+
+.contenedor .caja1 h3 li {
+  list-style-type: square;
+}
+
+.contenedor .caja2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2.18rem;
+  border-style: solid;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f8f8f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f591ba), to(#f183cd));
+  background-image: linear-gradient(#f591ba, #f183cd);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 21.8rem;
+  height: 12.5rem;
+  padding-top: 1rem;
+}
+
+.contenedor .caja2 h3 {
+  text-decoration: underline;
+  line-height: 0.6rem;
+}
+
+.contenedor .caja2 h3 li {
+  list-style-type: square;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+.zoom {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 320px) {
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .caja1 {
+    padding-right: 3rem;
+    padding-bottom: 80%;
+    width: 19rem;
+  }
+  .caja2 {
+    padding-right: 3rem;
+    padding-bottom: 80%;
+    width: 19rem;
+  }
+  img {
+    width: 4.5rem;
+    padding: 0 1rem;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .quiencont {
+    padding-bottom: 30rem;
+    margin-left: 0.6rem;
+  }
+  .prod {
+    margin-left: 0.6rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  form {
+    width: 18rem;
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
