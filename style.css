@@ -33,6 +33,7 @@ body {
 /* NAV */
 .menu {
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .menu ul a {
@@ -71,8 +72,8 @@ body {
   border-radius: 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f591ba), to(#f183cd));
-  background-image: linear-gradient(#f591ba, #f183cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f188b4), to(#f58cd2));
+  background-image: linear-gradient(#f188b4, #f58cd2);
   width: 21.8rem;
   height: 12.5rem;
   -webkit-box-align: center;
@@ -191,6 +192,10 @@ textarea {
   padding-top: 1rem;
 }
 
+.formato {
+  margin-bottom: 1rem;
+}
+
 /* EXTRA PAG QUE */
 .cajja {
   border: solid;
@@ -247,6 +252,9 @@ textarea {
   }
   form {
     width: 18rem;
+  }
+  textarea {
+    padding-right: 5rem;
   }
 }
 
