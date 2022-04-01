@@ -258,6 +258,73 @@ textarea {
   }
 }
 
+@media (max-width: 375px) {
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0.6rem;
+  }
+  img {
+    width: 4.5rem;
+    padding: 0 1rem;
+  }
+  form {
+    width: auto;
+    margin: 1rem;
+  }
+  textarea {
+    resize: none;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0.6rem;
+  }
+  .caja1, .contenedor .caja2 {
+    margin: 1rem;
+  }
+  img {
+    width: 4.5rem;
+    padding: 0 1rem;
+  }
+  .quiencont {
+    margin: 1.6rem;
+  }
+  .prod {
+    margin: 1.7rem;
+  }
+  form {
+    width: auto;
+    margin: 1rem;
+  }
+  textarea {
+    resize: none;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .caja1, .contenedor .caja2, .contenedor .caja2 {
+    margin: 1rem;
+    padding-bottom: auto;
+    margin-top: auto;
+  }
+}
+
 .nav-item {
   list-style-type: none;
 }
